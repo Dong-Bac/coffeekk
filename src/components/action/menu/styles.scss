@@ -1,0 +1,42 @@
+.active{
+    font-size: 16px;
+    color: #EA8025 !important;
+    font-weight: 600;
+    position: relative;
+}
+.stikySidebar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    padding-right: 50px;  
+        ul{
+            .siderbar_menu{
+                li{
+                    a{
+                        
+                        font-size: 14px;
+                        color: rgba(0, 0, 0, 0.6);
+                        font-family: 'SF Pro Text', sans-serif;
+                        padding-left: 26px;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    
+}
+
+
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 10px;
+    .grid_item {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        
+
+        
+      }
+}
